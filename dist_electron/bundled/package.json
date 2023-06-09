@@ -13,15 +13,7 @@
     "icons": "electron-icon-builder --input=./public/icons/icon.png --output=public --flatten"
   },
   "main": "background.js",
-  "dependencies": {
-    "@element-plus/icons-vue": "^2.1.0",
-    "argv": "^0.0.3",
-    "core-js": "^3.8.3",
-    "electron": "^25.1.0",
-    "electron-devtools-installer": "^3.2.0",
-    "element-plus": "^2.3.6",
-    "vue": "^3.2.13"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
@@ -32,8 +24,6 @@
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "unplugin-auto-import": "^0.16.4",
-    "unplugin-vue-components": "^0.25.1",
     "vue-cli-plugin-electron-builder": "~2.1.1"
   },
   "eslintConfig": {
